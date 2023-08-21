@@ -1,0 +1,40 @@
+/*Footer Start*/
+
+footer {
+    background-color: $title-color;
+    color: $white;
+    padding-top: 30px;
+    .footer-contents {
+        .footer-item {
+            li {
+                h5 {
+                    font-size: 20px;
+                    color: inherit;
+                    margin-bottom: 20px;
+                }
+                a {
+                    color: rgba(255, 255, 255, .7);
+                    &:hover {
+                        color: $white;
+                    }
+                }
+                margin-bottom: 8px;
+            }
+            margin-top: 30px;
+        }
+    }
+    .hr {
+        margin-top: 70px;
+    }
+    .copy-right {
+        .right {
+            font-size: 14px;
+        }
+        .google {
+            font-size: 14px;
+        }
+    }
+}
+
+
+/*Footer End*/

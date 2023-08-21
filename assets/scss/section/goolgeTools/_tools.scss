@@ -1,0 +1,64 @@
+/*Google Tools Start*/
+
+//extends codes 
+%about-tools {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    h2 {
+        margin-bottom: 20px;
+    }
+    .tools-desc {
+        font-size: 22px;
+        color: $title-color;
+        line-height: 32px;
+    }
+    a {
+        color: $primary-color;
+    }
+}
+
+%tools-img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tools {
+    h2 {
+        margin-bottom: 15px;
+    }
+    .discover-domain {
+        .about-tools {
+            @extend %about-tools;
+        }
+        .tools-img {
+            @extend %tools-img;
+        }
+    }
+    .profesonal-email {
+        .about-tools {
+            @extend %about-tools;
+        }
+        .tools-img {
+            @extend %tools-img;
+        }
+    }
+    .site-builder {
+        .about-tools {
+            @extend %about-tools;
+        }
+        .tools-img {
+            @extend %tools-img;
+        }
+    }
+    .online-business {
+        .about-tools {
+            @extend %about-tools;
+        }
+        .tools-img {
+            @extend %tools-img;
+        }
+    }
+}
+
+
+/*Google Tools End*/

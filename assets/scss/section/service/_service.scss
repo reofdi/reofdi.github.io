@@ -1,0 +1,40 @@
+/*Service Start*/
+
+.service {
+    h2.section-title {
+        font-size: 36px;
+        line-height: 46px;
+        margin-bottom: 30px;
+    }
+    .service-item {
+        .service-img {
+            img {
+                height: 120px;
+                margin: 30px 0;
+            }
+            text-align: center;
+        }
+        .service-text {
+            text-align: center;
+            padding: 10px 15px;
+            h4.item-title {
+                margin: 16px 0;
+                font-size: 25px;
+            }
+            .service-desc {}
+        }
+        margin-top: 40px;
+        box-shadow: 0 0 30px #c8d7dd;
+        background-color:$white;
+        border-radius: 5px;
+    }
+    .reason {
+        text-align: center;
+        display: block;
+        color: $primary-color;
+    }
+    background-color:$bgTwo;
+}
+
+
+/*Service End*/

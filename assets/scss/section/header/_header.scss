@@ -1,0 +1,101 @@
+/*Header Start*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 14px 30px;
+    background-color: $white;
+    box-shadow: 0px 1px 15px #b6d4e0;
+    .header-contents {
+        .menu {
+            .brand {
+                height: 32px;
+                a {
+                    display: inline-block;
+                    height: 100%;
+                    img {
+                        height: 100%;
+                    }
+                }
+            }
+            .items {
+                text-transform: capitalize;
+                margin-left: 20px;
+                li {
+                    margin-left: 30px;
+                    a {
+                        display: inline-block;
+                        padding: 2px 0;
+                        transition: all .3s ease;
+                        &:hover {
+                            border-bottom: 1px solid $primary-color;
+                        }
+                    }
+                }
+            }
+        }
+        .header-right {
+            a.sign-btn {
+                display: block;
+                padding: 0 40px;
+                line-height: 40px;
+                font-size: 18px;
+                text-transform: capitalize;
+                color: $primary-color;
+                border: 1px solid $primary-color;
+                border-radius: 3px;
+            }
+        }
+    }
+    z-index: 99999;
+    .mobile-view {
+        display: none;
+        cursor: pointer;
+        border-radius: 3px;
+        margin-left: auto;
+        i {
+            font-size: 20px;
+            padding: 4px 12px;
+            border: 1px solid $primary-color;
+            color: $primary-color;
+        }
+        .items-wrapper {
+            .items {
+                display: block;
+                position: fixed;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                width: 300px;
+                height: 100vh;
+                background-color: $title-color;
+                text-align: center;
+                padding-top: 100px;
+                transform: translateX(-100%);
+                transition: all .5s;
+                li {
+                    display: block;
+                    margin-bottom: 40px;
+                    a {
+                        display: block;
+                        color: rgba(253, 253, 253, 0.8);
+                        &:hover {
+                            color: $white;
+                        }
+                    }
+                }
+                .close-btn {
+                    position: absolute;
+                    top: 40px;
+                    margin-bottom: 20px;
+                    right: 40px;
+                }
+            }
+        }
+    }
+}
+
+
+/*Header End*/
